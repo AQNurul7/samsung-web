@@ -1,0 +1,96 @@
+
+html {
+    margin:"0";
+    padding:"0";
+}
+
+.container-navbar {
+    background-color: rgb(253, 249, 249);
+    width: 50%;
+    height: 50px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 7px;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.li-navbar {
+    background-color: white;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(15, 15, 15);
+} 
+
+
+.li-navbar:hover {
+ background-color: rgb(128, 120, 120);
+ transition: 0.2s ease-in-out;
+ transition-delay: 0.1s;
+ border-radius: 22px;
+}
+
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: white;
+    display: flex;
+}
+
+.img-content {
+    width: 30%;
+    height: 30%;
+}
+
+section.gifts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gifts {
+    display: flex;
+    overflow: hidden;
+    width: 800px; /* Adjust the width of the slider */
+    margin: 0 auto; /* Center the slider on the page */
+}
+
+.gift {
+    flex: 0 0 100%; /* Each gift takes up 100% of the container */
+}
+
+.gift video {
+    width: 100%;
+    height: auto;
+}
+
+.gift img {
+    width: 100%;
+    height: auto;
+}
+
+/* Add styles for h2 and p as needed */
+
+
+footer {
+    background-color: #f1c40f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
